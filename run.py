@@ -81,5 +81,5 @@ for attempt in range(6):
 # If player has used all 6 attempts, then the game is over
 if attempt == 5:
     print("Game over! Sorry, out of attempts, better luck next time.")  
-    attempt =+1
+    attempt = + 1
     print_board(board)     
