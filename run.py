@@ -44,8 +44,8 @@ ship_col = random_col(board)
 
 for attempt in range(6):
     print("Attempt"), attempt
-    guess_row = int(input("Please, guess the Row: "))
-    guess_col = int(input("Please, guess the Column: "))
+    guess_row = int(input("Please, guess the Row:\n "))
+    guess_col = int(input("Please, guess the Column:\n "))
 
     """
     If the player guess the ship location,
