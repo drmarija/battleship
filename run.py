@@ -22,8 +22,25 @@ def print_board(board):
 
 # Starting the game and printing the board
 print("Ready to have some fun? Let's play Battleship game!")
-print("Guess the place of the ship, by guessing the row and column.")
+print("Guess the place of the ship, btw 0 and 4 for row and column!")
 print("You have 6 attempts to complete the game.")
 print("Let's start!")
 
 print_board(board)
+
+# Defining the ship place on the board
+def random_row(board):
+    return randint(0, len(board) - 1)  
+def random_col(board):
+    return randint(0, len(board[0]) - 1)
+
+
+ship_row = random_row(board) 
+ship_col = random_col(board)
+
+# Defining the player attempts to guess where the ship is located
+attempt = 0
+for attempt in range(6):
+    print("Attempt"), attempt
+    guess_row = int(input("Please, guess the Row: "))
+    guess_col = int(input("Please, guess the Column: "))
