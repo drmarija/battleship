@@ -1,5 +1,9 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
+I'm submitting this project cuz Coding Institute has a deadline, I don't have the money for paying for delays. The project has bugs, not finished and not tested. 
+The credit goes to [Codeacademy](https://www.codeacademy.com).
+
+
 Welcome,
 
 This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **March 14, 2023**
